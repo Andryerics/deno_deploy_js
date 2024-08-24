@@ -35,5 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "andryerics-deno-deploy-82"
-          entrypoint: "app.py"
-          root: "/src"
+          entrypoint: "src/app.js"
+          root: "/"
